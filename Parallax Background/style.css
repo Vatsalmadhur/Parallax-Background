@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainBox{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/background.png);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border: 2px solid blue; */
+    overflow: hidden;
+    
+
+
+}
+#left-gate-img{
+   position: absolute;
+   transform: translate(-400px);
+   bottom: -100px;
+}
+#right-gate-img{
+    position: absolute;
+    transform: translate(400px);
+   bottom: -100px;
+
+}
+/* #moon-img{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 300px;
+} */
+#grass-img{
+    width: 100vw;
+    position: absolute;
+    left: 0%;
+    bottom: 0px;
+}
+#ground-img{
+    width: 100vw;
+    position: absolute;
+    left: 0%;
+    bottom: -70px;
+}
+#left-tree-img{
+    height: 100%;
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+}
+#right-tree-img{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#text{
+    font-size: 70px;
+    color: #1b283a;
+    text-shadow: 2px 4px 5px #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+#secBox{
+    /* height: 100vh; */
+    width: 100vw;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+.heading{
+font-size: 30px;
+padding-bottom: 20px;
+}
+
+
